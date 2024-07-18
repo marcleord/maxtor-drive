@@ -1,0 +1,32 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Marketing",
+            "folder": "/home/emperor-ice/code/maxtor-ftp/proxy/ftp/marketing"
+        },
+        {
+            "name": "Jojo",
+            "folder": "/home",
+            "id": 2
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "username": "marc@marc.com",
+            "fullname": "Marc Dupond",
+            "password": "0",
+            "id_service": 1,
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "username": "user@user.com",
+            "fullname": "Romaric anon",
+            "password": "0",
+            "id_service": 2,
+            "role": "user"
+        }
+    ]
+}
